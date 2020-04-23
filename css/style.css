@@ -1,0 +1,209 @@
+
+	/*Configuração do Menu Principal*/
+
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Ubuntu&display=swap');
+	header {
+	    min-height: 50px;
+	    background-color: white;
+	    padding-top: 0px;
+	}
+	h1 img { max-width: 250px; }
+
+
+	#menutop ul{
+		display: inline-block:width:95%;
+		list-style:none;
+		text-decoration:none;
+		text-transform:  uppercase;
+		text-align:right;
+		background-color: #38735d;
+		width: 100%;
+		padding: 0px 0px;
+		height: 35px; 
+		padding-top: 5px;
+		}
+	#menutop li{
+		display: inline;
+		list-style:none;
+		text-decoration:none;
+		text-align:center;
+		background-color: #38735d;
+		width: 100%;
+		padding-top: 10px 5px;
+
+
+		}
+
+		#menutop a{text-decoration: none; color:#ffffff;font-size:18px;text-align: center;padding-top: 0px;  }
+	/* FORMATAÇÃO DO MENU PRINCIPAL*/
+	nav {width: 100%; background: #ffffff; text-align: center;padding-top: 0px 0px;}
+
+	/* AO PASSAR O MOUSE MUDA A COR*/
+	nav a:hover, nav a:focus {
+	    color: white;
+	    background-color: #606060;
+	}
+
+	/* LOGO CENTRAL DO TOPO*/
+	/*nav h1{
+		text-align:left;
+		padding 0px; 0px;
+		
+	}*/
+
+
+	nav li{ text-decoration: none;color:black; padding: 0px; display: inline-block; background-color: white; border-radius:"6px";padding: 6px 10px;}
+
+	/* REMOÇÃO DOS PONTOS DO UL */
+	nav ul {text-decoration: none; 
+	list-style: none;color:black; 
+	text-transform:uppercase; 
+	display: inline-block;
+	padding-top: 0px 0px;
+	}
+
+	section img{
+
+		max-width: 100%;
+		position: center;
+		height:35%;
+		
+	}
+	body { 
+	    font-family: 'Open Sans', Verdana, sans-serif; 
+	    background-color: white;
+	}
+
+	#logo img{
+		 width: 10%;
+		 display: block; 
+	  
+	}
+	.conteiner {
+		display:flex;
+		margin: 10% ;
+		padding: 0px;
+		line-height: 0.1em;
+		font-family: katakana-iroha;
+		text-transform: uppercase;
+		text-align:center;
+		width: 80%;
+		flex-direction:row; /*DIRECIONAMENTO EM LINHA */
+		flex-wrap:nowrap; /*NÃO TEM QUEBRA DE LINHA*/
+		/*justify-content: center ; ALINHAMENTO DA CAIXA NO CENTRO DA PAGINA*/
+		
+		justify-content:space-between;/*SEPARANDO OS ITENS DA CAIXA*/
+		
+		
+	}
+	.conteiner img{
+		
+		padding: 0px;
+		max-width: 70%;
+		background-color: white;
+		
+	}
+
+
+	#localização h2{
+	text-transform:  uppercase;
+	text-align: center;
+	color: white; 
+	text-shadow: black 1px 1px 2px;
+	padding-top: 20px;
+	font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+
+
+	}
+
+	#localização p{
+	text-transform:  uppercase;
+	text-align: center;
+	color: white; 
+	text-shadow: black 1px 1px 2px;
+	font-family: Gill Sans, sans-serif;
+	font-size: 15px;
+
+
+
+	}
+
+	#localização img{
+	width: 2%;
+	align-items: center;
+
+
+
+	}
+
+	/* FORMATAÇÃO DO FOOTER GERAL DO FOOTER*/
+	footer{
+	 
+
+		position: block;
+		background: #38735d;
+		color:white;
+		text-transform: uppercase;
+		padding: 20px ;
+		
+	}
+
+	#rodape p{
+		font-family: monospace;
+		text-align: center;
+		font-size: 12px;
+		
+		page-break-inside:  0px;
+	}
+
+	/*Informações da Sede Administrativa Formatação*/
+	#adm {
+		text-align:left;
+		font-size: 15px;
+		line-height: 0emem;	
+		padding-left: 20px;
+		padding-bottom: 15px;
+
+		
+		
+	}
+	#adm a {
+	 text-decoration: none;
+	 color:white;
+
+		
+		
+	}
+	#adm b{
+		text-align:left;
+		font-size: 20px;
+		line-height: 0emem;	
+		font-family: Gill Sans, sans-serif;
+		}
+
+	#adm img{
+	width: 2%;
+	align-items: center;
+
+	}
+	/*Informações midia Social */
+	#midia h2 {
+		text-align: center;
+		font-size: 15px;
+		line-height: 0emem;
+	}
+	#midia p {
+	text-align: center;
+	font-size: 15px;
+	line-height: 0emem;
+	}
+
+	#midia img{
+	width: 2%;
+	align-items: center;
+
+
+
+
+	}
